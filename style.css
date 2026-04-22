@@ -41,7 +41,7 @@ body {
 
 .status-display.player-win {
   color: #0066cc !important;
-  text-shadow: 0 0 20px #00ff00;
+  text-shadow: 0 0 20px #0066cc;
 }
 
 .status-display.banker-win {
