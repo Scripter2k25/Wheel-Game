@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wheel Game</title>
+<link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Bet Controls -->
+  <div id="bet-controls" class="bet-controls">
+    <div id="status-display" class="status-display">Select bet to begin</div>
+    <div class="bet-buttons">
+      <button id="bet-player" class="bet-btn player-btn">Bet Player</button>
+      <button id="bet-banker" class="bet-btn banker-btn">Bet Banker</button>
+      <button id="spin-btn" class="spin-btn" disabled>Spin Wheel</button>
+    </div>
+  </div>
+
+  <div class="casing">
+    <div id="w" class="wheel">
+      <div id="c" class="center"></div>
+      <div class="cap"></div>
+    </div>
+    <div id="p" class="pin"></div>
+  </div>
+
+  <!-- JS (placed at bottom for proper loading) -->
+  <script src="script.js"></script>
+
+</body>
+</html>
